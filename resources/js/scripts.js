@@ -98,12 +98,12 @@ $(document).ready(function() {
         
         nav.slideToggle(200);
         
-        if (icon.hasClass('ion-navicon-round')) {
-            icon.addClass('ion-close-round');
-            icon.removeClass('ion-navicon-round');
-        } else {
+        if (icon.hasClass('ion-close-round')) {
             icon.addClass('ion-navicon-round');
             icon.removeClass('ion-close-round');
+        } else {
+            icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon-round');
         }
     });
     
