@@ -107,8 +107,7 @@ $(document).ready(function() {
         }
     });
     
-    
-<<<<<<< HEAD
+
     new GMaps({
       div: '.map',
       lat: -12.043333,
@@ -116,6 +115,3 @@ $(document).ready(function() {
     });
     
     
-=======
->>>>>>> parent of 2b54820... Added map to contact section
-});
